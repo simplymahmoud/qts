@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite name="nosetests" tests="1" errors="1" failures="0" skip="0"><testcase classname="test_get" name="test_qts" time="0.000"><error type="exceptions.IOError" message="[Errno 2] No such file or directory: u'/qts_watch_folder/new_program_name.xml'"><![CDATA[Traceback (most recent call last):
+  File "/usr/lib/python2.7/unittest/case.py", line 329, in run
+    testMethod()
+  File "/home/user/.local/lib/python2.7/site-packages/nose/case.py", line 197, in runTest
+    self.test(*self.arg)
+  File "/home/user/Downloads/TestUsingPytest/testsuite/test_get.py", line 42, in test_qts
+    create_file(file_name=file_name, file_path=test_config['QTS']['folder'], content=test_config['XML']['format'].replace('program_name', test_config['Program']['name']))
+  File "/home/user/Downloads/TestUsingPytest/testsuite/test_get.py", line 30, in create_file
+    file_obj = open(file_path+file_name, "w")
+IOError: [Errno 2] No such file or directory: u'/qts_watch_folder/new_program_name.xml'
+]]></error></testcase></testsuite>

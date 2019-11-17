@@ -1,0 +1,4 @@
+requests==2.21.0
+pytest==5.2.4
+nose-testconfig==0.10
+nose_xunitmp==0.4.1
